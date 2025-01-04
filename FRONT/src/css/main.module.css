@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Gowun+Batang&display=swap");
+* {
+  margin: 0;
+  padding: 0; }
+
+html, body {
+  background-color: #31334b; }
+
+.mainArea {
+  font-family: "Gowun Batang", serif;
+  color: #dfdcb9;
+  margin: auto;
+  text-align: center;
+  width: 50rem; }
+
+.timeArea {
+  border: 1px solid #faedcd;
+  width: 10rem;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px; }
+
+.textBoxesArea {
+  margin-bottom: 1rem;
+  display: flex;
+  height: 21rem; }
+
+.textBox {
+  flex: 1;
+  border: 1px solid #faedcd;
+  padding: 1.5rem 1rem; }
+
+.leftTextBox {
+  border-radius: 10px 0 0 10px;
+  -webkit-border-radius: 10px 0 0 10px;
+  -moz-border-radius: 10px 0 0 10px;
+  -ms-border-radius: 10px 0 0 10px;
+  -o-border-radius: 10px 0 0 10px; }
+
+.rightTextBox {
+  border-radius: 0rem 10px 10px 0;
+  -webkit-border-radius: 0rem 10px 10px 0;
+  -moz-border-radius: 0rem 10px 10px 0;
+  -ms-border-radius: 0rem 10px 10px 0;
+  -o-border-radius: 0rem 10px 10px 0; }
+
+.textArea {
+  width: 95%;
+  height: 95%; }
+
+.trashCanArea {
+  height: 16rem;
+  line-height: 16rem;
+  font-size: 8rem; }
+
+.trashCan {
+  transition: 0.2s;
+  -webkit-transition: 0.2s;
+  -moz-transition: 0.2s;
+  -ms-transition: 0.2s;
+  -o-transition: 0.2s; }
+
+.trashCan:hover {
+  cursor: pointer;
+  transform: rotate(30deg);
+  -webkit-transform: rotate(30deg);
+  -moz-transform: rotate(30deg);
+  -ms-transform: rotate(30deg);
+  -o-transform: rotate(30deg); }
+
+.btns {
+  border: 1px solid #faedcd;
+  width: 20%;
+  float: right;
+  margin-right: 0.5rem;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px; }
+
+.btns:hover {
+  cursor: pointer;
+  background-color: #3d405b; }
+
+/*# sourceMappingURL=main.module.css.map */
