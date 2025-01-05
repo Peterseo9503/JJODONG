@@ -7,10 +7,9 @@ import openai
 import json
 @csrf_exempt
 def consult(req):
-    
     if req.method == "POST":
-        reqDate = json.loads(req.body.decode('utf-8'))
-        print(reqDate.consult)
+        reqDate = json.loads(req.body)
+        print(reqDate)
 
         openai.api_key = os.getenv("OPENAI_API_KEY").strip()
         prompt = """너는 우울한 사람들 상담하는 심리 상담사야. 상담내용을 긍정적인 내용으로 바꾸면 돼. 혹시 장원영의 럭키비키식 사고 알고 있으면 그렇게 해.
