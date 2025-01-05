@@ -1,4 +1,6 @@
 const Banner = () =>{
+
+    
     return <div> banner </div>
 }
 
